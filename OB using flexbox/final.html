@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>onebanc</title>
+	<link rel="stylesheet" type="text/css" href="final.css">
+</head>
+<body>
+	<script type="text/javascript" src="final.js"></script>
+	<div class="wrapper-full">
+		<div class="left-container-wrapper">
+			<div class="left-container-content">
+				<div class="not-varying-container">
+					<div class="logo-image">
+						<img src="logo.png">
+					</div>
+
+					<div class="heading-onebanc">
+						<h1>RE:</h1>
+						<h1>THINK</h1>
+						<div class="varying-content">
+							<h1><span id="typed-text"></span><span class="cursor">&nbsp;</span></h1>
+						</div>
+					</div>
+
+					<div class="description">
+						We are a Neo Bank
+						<span class="show-on-mob">,</span>
+						<span class="hide-on-mob">and are here to re-imagine and re-invent Banking. We are</span>
+						cool and simply awesome!
+					</div>
+
+					<div class="email-input-container">
+						<div class="submit-form">
+							Get an early invitation for beta release
+							<br>
+							<div class="input-with-button">
+								<input type="email" name="email" placeholder="Enter Email Address">
+								<div class="button">
+									<img src="arrow.svg">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="round-image">
+					<div class="image">
+						<img src="roundman.png">
+					</div>
+					<div id="mob-man-icons" class="mob-man-icons">
+						
+					</div>
+					<div id="mob-man-icons-below" class="mob-man-icons-below">
+						
+					</div>
+				</div>
+
+				<div class="footer-container" >
+					<div class="footer-image">
+						<img src="footer.png">
+					</div>
+					<div style="text-decoration: none; color:white; width: 50%;margin-top: 2%;">
+						<a class="link" href="#" target="_blank" style="text-decoration: none; font-size: 15px; color: white;">Terms & Conditions</a>
+						|
+						<a class="link" href="#" target="_blank" style="text-decoration: none; font-size: 15px; color: white;">Privacy Policy</a>
+					</div>
+					<div class="copyright" style="color:white; font-size: 17px; margin-bottom: 5%;">
+						2020 © OneBanc Technologies Pvt. Ltd.
+					</div>
+				</div>
+				
+			</div>
+			<div class="left-container-image">
+				<img src="sideimage.svg">
+			</div>
+		</div>
+		
+
+		<div class="right-container-wrapper">
+			<div class="left-man-container">
+				<div class="left-man-image">
+					<img src="manone.png">
+				</div>
+				<div class="regular-bank">
+					<p>#RegularBank</p>
+				</div>
+				<div id="left-man-icons" class="left-man-icons">
+					
+				</div>
+			</div>	
+			<div class="middle-line">
+				<img src="middleline.png">
+			</div>
+			<div class="right-man-container">
+				<div class="right-man-image">
+					<img src="mantwo.png">
+				</div>
+				<div class="one-banc">
+					<p>#OneBanc</p>
+				</div>
+				<div class="big-leftcurve">
+					<img src="biglineright.png" style="transform: scaleX(-1);">
+				</div>
+				<div class="big-rightcurve">
+					<img src="biglineright.png">
+				</div>
+				<div class="small-leftcurve" style="transform: scaleX(-1);">
+					<img src="biglineright.png" style="height: 30px;">
+				</div>
+				<div class="small-rightcurve">
+					<img src="biglineright.png" style="height: 30px;">
+				</div>
+				<div id="right-man-icons" class="right-man-icons">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="icon-template" style="display: none;">
+		<div class="icons analytics">
+			<div class="icon-image">
+				<img src="analytics.svg">
+			</div>
+			<div class="title">Analytics</div>
+		</div>
+
+		<div class="icons forex">
+			<div class="icon-image">
+				<img src="forex.svg">
+			</div>
+			<div class="title">Forex</div>
+		</div>
+
+		<div class="icons investments">
+			<div class="icon-image">
+				<img src="investment.svg">
+			</div>
+			<div class="title">Investments</div>
+		</div>
+
+		<div class="icons savings">
+			<div class="icon-image">
+				<img src="savings.svg">
+			</div>
+			<div class="title">Savings</div>
+		</div>
+
+		<div class="icons rewards">
+			<div class="icon-image">
+				<img src="rewards.svg">
+			</div>
+			<div class="title">Rewards</div>
+		</div>
+
+		<div class="icons cards">
+			<div class="icon-image">
+				<img src="cards.svg">
+			</div>
+			<div class="title">Cards</div>
+		</div>
+
+		<div class="icons payments">
+			<div class="icon-image">
+				<img src="payments.svg">
+			</div>
+			<div class="title">Payments</div>
+		</div>
+
+		<div class="icons loan">
+			<div class="icon-image">
+				<img src="loan.svg">
+			</div>
+			<div class="title">Loan</div>
+		</div>
+
+		<div class="icons support">
+			<div class="icon-image">
+				<img src="support.svg">
+			</div>
+			<div class="title">Support</div>
+		</div>
+
+
+	</div>
+
+
+
+	<script type="text/javascript">
+		document.getElementById('left-man-icons').innerHTML = document.getElementById('icon-template').innerHTML;
+		document.getElementById('right-man-icons').innerHTML = document.getElementById('icon-template').innerHTML;
+		document.getElementById('mob-man-icons').innerHTML = document.getElementById('icon-template').innerHTML;
+		document.getElementById('mob-man-icons-below').innerHTML = document.getElementById('icon-template').innerHTML;
+
+		var Arr = [
+			"ANALYTICS",
+			"FOREX",
+			"INVESTMENT",
+			"SAVINGS",
+			"REWARDS",
+			"CARDS",
+			"PAYMENTS",
+			"LOAN",
+			"SUPPORT"
+		];
+
+
+		var Icon = document.getElementsByClassName('icon-image');
+		var l=9;
+
+		var current_index = 0;
+		var flag=0;
+		fun();
+
+
+		function fun(){
+			var len = (document.getElementById('typed-text').innerHTML).length;
+
+			if(len==0 && flag==1){
+				flag=0;
+				Icon[current_index].style.width='100%';
+				Icon[current_index+9].style.width='100%';
+				Icon[current_index+18].style.width='100%';
+				Icon[current_index+27].style.width='100%';
+
+				
+
+
+				current_index=(current_index+1)%l;
+				Icon[current_index].style.width='120%';
+				Icon[current_index+9].style.width='120%';
+				Icon[current_index+18].style.width='120%';
+				Icon[current_index+27].style.width='120%';
+
+				
+
+
+				document.getElementById('typed-text').innerHTML="";
+				setTimeout(fun, 300);
+			}
+			else if(len==Arr[current_index].length){
+				flag=1;
+				len=len-1;
+				var str=Arr[current_index].substr(0,len);
+				document.getElementById('typed-text').innerHTML=str;
+				setTimeout(fun, 300);
+			}
+			else if(flag==0){
+				var str=Arr[current_index].substr(0, len+1);
+
+				document.getElementById('typed-text').innerHTML=str;
+				setTimeout(fun, 300);
+			}
+			else{
+				var str=Arr[current_index].substr(0, len-1);
+				document.getElementById('typed-text').innerHTML=str;
+				setTimeout(fun, 100);
+			}
+
+		}
+
+
+	</script>
+</body>
+</html>

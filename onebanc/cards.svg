@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_18" data-name="Rectangle 18" width="200" height="200"/>
+    </clipPath>
+  </defs>
+  <g id="Cards" clip-path="url(#clip-path)">
+    <g id="Group_244" data-name="Group 244" transform="translate(1387 -366)">
+      <g id="bank-2" transform="translate(-1370 399)">
+        <path id="Path_199" data-name="Path 199" d="M171.247,145.952l9.761-62.325a11.6,11.6,0,0,0-9.613-13.293h0L39.684,49.193a11.6,11.6,0,0,0-13.29,9.613l-4.68,26.948s129.537-.62,135.809-.62,14.644.137,13.872,20.723S171.247,145.952,171.247,145.952Z" transform="translate(-14.653 -49.045)" fill="none" stroke="#61a2f9" stroke-width="3"/>
+        <path id="Path_201" data-name="Path 201" d="M11.6,159.771H145a11.6,11.6,0,0,1,11.6,11.6v75.4a11.6,11.6,0,0,1-11.6,11.6H11.6A11.6,11.6,0,0,1,0,246.768v-75.4a11.6,11.6,0,0,1,11.6-11.6Z" transform="translate(0 -123.763)" fill="none" stroke="#61a2f9" stroke-width="4"/>
+        <rect id="Rectangle_5" data-name="Rectangle 5" width="28.999" height="23.199" transform="translate(14.499 50.508)" fill="#61a2f9"/>
+        <g id="Group_211" data-name="Group 211" transform="translate(14.499 59.208)">
+          <rect id="Rectangle_6" data-name="Rectangle 6" width="8.7" height="5.8" fill="#dd7219"/>
+          <rect id="Rectangle_7" data-name="Rectangle 7" width="8.7" height="5.8" transform="translate(20.299)" fill="#dd7219"/>
+        </g>
+        <circle id="Ellipse_2" data-name="Ellipse 2" cx="14.499" cy="14.499" r="14.499" transform="translate(113.096 91.106)" fill="#fdb62f"/>
+        <circle id="Ellipse_3" data-name="Ellipse 3" cx="14.499" cy="14.499" r="14.499" transform="translate(95.697 91.106)" fill="#dd7219"/>
+        <g id="Group_212" data-name="Group 212" transform="translate(11.6 50.508)" style="isolation: isolate">
+          <rect id="Rectangle_8" data-name="Rectangle 8" width="17.399" height="5.8" transform="translate(0 43.498)" fill="#61a2f9"/>
+          <rect id="Rectangle_9" data-name="Rectangle 9" width="17.399" height="5.8" transform="translate(28.999 43.498)" fill="#61a2f9"/>
+          <rect id="Rectangle_10" data-name="Rectangle 10" width="17.399" height="5.8" transform="translate(57.998 43.498)" fill="#61a2f9"/>
+          <rect id="Rectangle_11" data-name="Rectangle 11" width="75.398" height="5.8" transform="translate(0 60.898)" fill="#61a2f9"/>
+          <rect id="Rectangle_12" data-name="Rectangle 12" width="5.8" height="11.6" transform="translate(89.897)" fill="#61a2f9"/>
+          <rect id="Rectangle_13" data-name="Rectangle 13" width="5.8" height="11.6" transform="translate(101.497)" fill="#61a2f9"/>
+          <rect id="Rectangle_14" data-name="Rectangle 14" width="5.8" height="11.6" transform="translate(113.096)" fill="#61a2f9"/>
+          <rect id="Rectangle_15" data-name="Rectangle 15" width="5.8" height="11.6" transform="translate(124.696)" fill="#61a2f9"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
